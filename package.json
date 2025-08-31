@@ -2,7 +2,6 @@
   "name": "professional-resume",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://fbanks5.github.io/frantz-banks-resume",
   "type": "module",
   "scripts": {
     "dev": "vite",
