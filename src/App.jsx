@@ -620,18 +620,18 @@ function App() {
           transition={{ delay: 3 }}
         >
           <div className="bg-gradient-to-r from-slate-800/50 to-slate-700/50 backdrop-blur-lg rounded-2xl p-6 border border-slate-600/30">
-            <p className="text-slate-400 mb-2">
-              Ready to secure your digital future with cutting-edge cybersecurity and blockchain expertise
-            </p>
-            <div className="flex justify-center space-x-4 text-sm">
-              <span className="text-cyan-400">Application Security</span>
-              <span className="text-slate-500">•</span>
-              <span className="text-purple-400">Blockchain Security</span>
-              <span className="text-slate-500">•</span>
-              <span className="text-green-400">Cloud Security</span>
-              <span className="text-slate-500">•</span>
-              <span className="text-orange-400">DevSecOps</span>
-            </div>
+              <p className="text-base md:text-lg text-slate-300 mb-4 px-2">
+                  Ready to secure your digital future with cutting-edge cybersecurity and blockchain expertise
+              </p>
+              <div className="flex flex-wrap justify-center items-center gap-2 md:gap-4 text-xs md:text-sm px-2">
+                  <span className="text-cyan-400">Application Security</span>
+                  <span className="text-slate-400 hidden md:inline">•</span>
+                  <span className="text-purple-400">Blockchain Security</span>
+                  <span className="text-slate-400 hidden md:inline">•</span>
+                  <span className="text-green-400">Cloud Security</span>
+                  <span className="text-slate-400 hidden md:inline">•</span>
+                  <span className="text-orange-400">DevSecOps</span>
+              </div>
           </div>
         </motion.footer>
       </div>
