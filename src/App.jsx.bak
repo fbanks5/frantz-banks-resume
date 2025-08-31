@@ -22,7 +22,7 @@ import {
   Target,
   Layers
 } from 'lucide-react'
-// import ParticleBackground from './components/ParticleBackground'
+import ParticleBackground from './components/ParticleBackground'
 import './App.css'
 
 const fadeInUp = {
